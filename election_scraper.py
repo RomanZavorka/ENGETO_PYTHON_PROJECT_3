@@ -1,5 +1,6 @@
 """
 projekt_3.py: třetí projekt do Engeto Online Python Akademie
+
 author: Roman Závorka
 email: romanz90zero@gmail.com
 discord: romanz90
