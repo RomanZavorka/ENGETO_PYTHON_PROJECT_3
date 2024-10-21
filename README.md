@@ -13,7 +13,7 @@ Knihovny, které byly použity v rámci projektu, jsou uloženy v pøiloženém souboru
 ## Spuštìní projektu
 Pro úspìšné spuštìní souboru "election_scraper.py" je potøeba do pøíkazového øádku konzole zadat dva povinné argumenty:
 
-	Python election_scraper.py "odkaz_uzemniho_celku" "vysledny_soubor" 
+	Python election_scraper.py "odkaz_územního_celku" "výsledný_soubor" 
 
 Po spuštìní dojde ke stažení a následnému zápisu výsledkù voleb do souboru s pøíponou .csv.
 
