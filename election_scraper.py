@@ -117,7 +117,7 @@ def elections_scraper(link, name):
 
         length = len(municipality_code(link))
         print(f"Initiating data scraping from selected URL: {link}\n"
-              f"Saving data into file: {name}.")
+              f"Saving data into file: {name}")
         
         index = 0.1
         for number in range(0,length):

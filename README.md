@@ -1,21 +1,21 @@
-# Engeto_pa_3_projekt
+# Engeto Python projekt è. 3
 Tøetí projekt v rámci Python Akademie od Engeta.
 
 ## Popis projektu
 Projekt je vìnován nástroji sloužícímu k extrahování výsledkù z parlamentních voleb konaných v roce 2017. Odkaz k prohlédnutí najdete [zde](https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ).
 
 ## Instalace knihoven
-Knihovny, které byly použity v rámci projketu, jsou uloženy v pøiloženém souboru requirements.txt. Pro instalaci doporuèuji vytvoøit nové virtuální prostøedí a s nainstalovaným manažerem postupovat následovnì:
+Knihovny, které byly použity v rámci projketu, jsou uloženy v pøiloženém souboru requirements.txt. Pro instalaci doporuèuji vytvoøit nové virtuální prostøedí a s nainstalovaným manažerem postupovat v konzoli následovnì:
 
 	Ovìøení verze manažeru: pip --version
 	Instalace knihoven: pip install -r requirements.txt	
 
 ## Spuštìní projektu
-Pro uspìšné spuštìní souboru "election_scraper.py" je potøeba do pøíkazového øádku zadat dva povinné argumenty:
+Pro uspìšné spuštìní souboru "election_scraper.py" je potøeba do pøíkazového øádku konzole zadat dva povinné argumenty:
 
 	Python election_scraper.py "odkaz_uzemniho_celku" "vysledny_soubor" 
 
-Posléze dojde ke stažení výsledkù voleb ve formì souboru s pøíponou .csv.
+Po spuštìní dojde ke stažení a následném zápisu výsledkù voleb do souboru s pøíponou .csv.
 
 ## Ukázka projektu
 Výsledky hlasování pro okres Frýdek-Místek:
@@ -30,7 +30,7 @@ Spuštìní programu:
 Prùbìh stahování:
 
 	Initiating data scraping from selected URL: https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8102
-	Saving data into file: results_frýdek-místek.csv.
+	Saving data into file: results_frýdek-místek.csv
 	10% complete
 	20% complete
 	30% complete
