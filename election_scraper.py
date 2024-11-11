@@ -89,21 +89,22 @@ def record_maker(link, order):
 
 def input_check(link ="blank", name ="blank"):
 
-    file_name = "results_frýdek-místek.csv"
-    input_link = "https://www.volby.cz/pls/ps2017nss/" +\
-        "ps32?xjazyk=CZ&xkraj=14&xnumnuts=8102"
+    file_suffix = ".csv"
+    link_prefix = "https://www.volby.cz/pls/ps2017nss/"
+    
    
-    if name == file_name and link == input_link:
+    if name[-4:] == file_suffix and link[:35] == link_prefix \
+    and len(link) >= 65:
         return 1
-    else:       
+    else:      
         if link == "blank":
             print("Please enter URL link.")
-        elif link != input_link:
+        elif link[:35] != link_prefix or link[:35] != link_prefix or len(link) < 65:
             print("Wrong web link input.")
         if name == "blank":
             print("Please enter output file name.")
-        elif name != file_name:
-            print("Wrong file name input.")
+        elif name[-4:] != file_suffix:
+            print("File name must have '.csv' suffix.")
 
 def elections_scraper(link, name):
     
