@@ -1,7 +1,6 @@
 # ENGETO_PYTHON_PROJECT_3
-The third project within the Python Academy course by Engeto.
 ## Project assignment
-### Description
+### Introduction
 The final project of the Python Academy course focused on creation of a program for extraction of the results of the 2017 parliamentary elections in the Czech Republic for a selected district. You can view the official source[here](https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ).
 ### Project procedure
 1. Creation of virtual environment dedicated exclusively to this project
