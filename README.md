@@ -30,7 +30,7 @@ Libraries installation:
 ### Running the project
 To successfully run the "election_scraper.py" file, two required arguments must be entered into the console command line:
 
-	Python election_scraper.py "territorial_unit_link" "output_file" 
+	Python election_scraper.py "territorial_unit_link" "output_file.csv" 
 
 Once executed, the script will download the election results and save them into a file with the .csv extension.
 ### Project example
