@@ -15,7 +15,7 @@ The final project of the Python Academy course focused on creation of a program 
 3. Brief documentation(description, library installation, example) - "readme.md".
 4. A file with the saved output (.csv).
 5. Code organized into short and clear functions.
-## Brief documentation
+## Brief documentation for use
 ### Libraries installation
 The libraries used in this project are listed in the attached requirements.txt file. For installation, it is recommended to create a new virtual environment and proceed in the console as follows using the installed package manager:
 
