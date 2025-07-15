@@ -1,9 +1,8 @@
 """
-projekt_3.py: třetí projekt do Engeto Online Python Akademie
+project_3.py: Third project for Engeto Online Python Academy
 
 author: Roman Závorka
 email: romanz90zero@gmail.com
-discord: romanz90
 """
 
 import requests as r
