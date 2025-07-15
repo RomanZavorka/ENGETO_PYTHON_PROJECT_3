@@ -9,12 +9,12 @@ The final project of the Python Academy course focused on creation of a program 
 4. Running of the program using two command-line arguments – the first argument represents the URL of the target data source, the second is the name of the output file. The input() function is not to be used.
 5. Validation of the input arguments – if they are missing, in the wrong order or contain an invalid URL, the program should notify the user and terminate.
 6. Creation of a "readme.md" file that provides an overview of the project, instructions for installing dependencies from the "requirements.txt" file, how to run the program, and optionally a sample example with specific parameters and output.
-### Project requirements
+7. Code organization into short and clear functions for better readability and maintainability.
+### Project file requirements
 1. A program file (script) with the .py extension, which requires 2 arguments to run properly.
 2. A file with list of only the relevant libraries and their versions for the project (requirements.txt).
 3. Brief documentation(description, library installation, example) - "readme.md".
 4. A file with the saved output (.csv).
-5. Code organized into short and clear functions.
 ## Brief documentation for use
 ### Libraries installation
 The libraries used in this project are listed in the attached requirements.txt file. For installation, it is recommended to create a new virtual environment and proceed in the console as follows using the installed package manager:
