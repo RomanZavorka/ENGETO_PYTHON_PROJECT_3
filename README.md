@@ -19,9 +19,12 @@ The final project of the Python Academy course focused on creation of a program 
 ### Libraries installation
 The libraries used in this project are listed in the attached requirements.txt file. For installation, it is recommended to create a new virtual environment and proceed in the console as follows using the installed package manager:
 
-Package manager version verification: 
+Package manager version verification:
+
 	pip --version
-Libraries installation: 
+
+Libraries installation:
+
 	pip install -r requirements.txt	
 
 ### Running the project
