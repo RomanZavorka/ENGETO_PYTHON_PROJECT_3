@@ -2,7 +2,7 @@
 ## Project assignment
 ### Introduction
 The final project of the Python Academy course focused on creation of a program for extraction of the results of the 2017 parliamentary elections in the Czech Republic for a selected district. You can view the official source [here](https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ).
-### Required project processing procedure
+### Required processing procedure
 1. Creation of virtual environment dedicated exclusively to this project.
 2. Installation of the necessary third-party libraries into the created environment using an IDE or the command line.
 3. Generation of a "requirements.txt" file that automatically records a list of all used libraries including their versions (the file is not to be written manually).
